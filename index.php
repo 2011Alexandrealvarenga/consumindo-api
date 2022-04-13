@@ -33,6 +33,9 @@
             echo 'nome '. $ator->name . '<br>';
             echo 'nome '. $ator->height . '<br>';
             echo '<hr>';
+            foreach($ator->filmes as $filme){
+                echo 'filmes '.$filme.'<br>';
+            }
         }
     ?>
 </body>
